@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document Intelligence</title>
+  <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+<header class="topbar">
+  <div><strong>Document Intelligence</strong><span>Extraction & validation</span></div>
+  <a href="/docs" target="_blank">API Docs</a>
+</header>
+<main class="container">
+  <section class="card upload-card">
+    <div>
+      <h1>Process a document</h1>
+      <p class="muted">PDF, JPG or PNG · maximum 3 pages</p>
+    </div>
+    <form id="uploadForm">
+      <label>Document type
+        <select id="documentType" required>
+          <option value="invoice">Invoice</option>
+          <option value="balance_sheet">Balance Sheet</option>
+          <option value="profit_and_loss">Profit & Loss</option>
+          <option value="cash_flow_statement">Cash Flow Statement</option>
+        </select>
+      </label>
+      <label>Document
+        <input id="fileInput" type="file" accept=".pdf,.jpg,.jpeg,.png" required>
+      </label>
+      <button id="processBtn" type="submit">Process document</button>
+      <div id="status" class="status"></div>
+    </form>
+  </section>
+
+  <section class="card">
+    <div class="section-head">
+      <div><h2>Processed documents</h2><p class="muted">Stored results from the backend database</p></div>
+      <button class="secondary" id="refreshBtn">Refresh</button>
+    </div>
+    <div id="documents" class="table-wrap"></div>
+  </section>
+
+  <section id="resultCard" class="card hidden">
+    <div class="section-head">
+      <div><h2 id="resultTitle">Result</h2><p id="resultMeta" class="muted"></p></div>
+      <button class="secondary" id="closeResult">Close</button>
+    </div>
+    <div id="result"></div>
+  </section>
+</main>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

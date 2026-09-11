@@ -1,0 +1,675 @@
+{
+  "document_name": "Consolidated Cash Flow Statement 2026.pdf",
+  "document_type": "cash_flow_statement",
+  "processing_status": "PASS",
+  "file_validation": {
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 2,
+    "status": "PASS",
+    "issues": []
+  },
+  "extracted_data": {
+    "header": {
+      "statement_title": "Consolidated Cash Flow Statement"
+    },
+    "fields": {
+      "operating_cash_flow": {
+        "value": 113506.38,
+        "evidence": {
+          "source_text": "Net cash flows from operating activities 113,506.38 127,241.84",
+          "page_number": 1
+        }
+      },
+      "investing_cash_flow": {
+        "value": 6362.72,
+        "evidence": {
+          "source_text": "Net cash flow from / (used in) investing activities 6,362.72 (3,850.64)",
+          "page_number": 1
+        }
+      },
+      "financing_cash_flow": {
+        "value": -59004.85,
+        "evidence": {
+          "source_text": "Net cash flow used in financing activities (59,004.85) (102,477.54)",
+          "page_number": 2
+        }
+      },
+      "net_change_in_cash": {
+        "value": 61978.15,
+        "evidence": {
+          "source_text": "Net increase in cash and cash equivalents 61,978.15 21,113.39",
+          "page_number": 2
+        }
+      },
+      "opening_cash": {
+        "value": 249947.9,
+        "evidence": {
+          "source_text": "Cash and cash equivalents at the beginning of the year 249,947.90 228,834.51",
+          "page_number": 2
+        }
+      },
+      "closing_cash": {
+        "value": 311926.05,
+        "evidence": {
+          "source_text": "Cash and cash equivalents at the end of the year 311,926.05 249,947.90",
+          "page_number": 2
+        }
+      }
+    },
+    "periods": [
+      "March 31, 2026",
+      "March 31, 2025"
+    ],
+    "line_items": [],
+    "financial_line_items": [
+      {
+        "label": "For the year ended March",
+        "values": {
+          "March 31, 2026": 31.0,
+          "March 31, 2025": 2026.0
+        },
+        "evidence": {
+          "source_text": "For the year ended March 31, 2026",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "March 31, March",
+        "values": {
+          "March 31, 2026": 31.0,
+          "March 31, 2025": 2025.0
+        },
+        "evidence": {
+          "source_text": "March 31, 2026 March 31, 2025",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Consolidated Profit after tax and minority interest 76,025.97",
+        "values": {
+          "March 31, 2026": 76025.97,
+          "March 31, 2025": 70792.25
+        },
+        "evidence": {
+          "source_text": "Consolidated Profit after tax and minority interest 76,025.97 : 70,792.25",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Add: Provision for income tax ( Refer schedule 18 (9)) 22,921.99",
+        "values": {
+          "March 31, 2026": 22921.99,
+          "March 31, 2025": 22801.88
+        },
+        "evidence": {
+          "source_text": "Add: Provision for income tax ( Refer schedule 18 (9)) 22,921.99 : 22,801.88",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Consolidated profit before income tax and after minority interest",
+        "values": {
+          "March 31, 2026": 98947.96,
+          "March 31, 2025": 93594.13
+        },
+        "evidence": {
+          "source_text": "Consolidated profit before income tax and after minority interest 98,947.96 93,594.13",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Depreciation on fixed assets 4,194.90",
+        "values": {
+          "March 31, 2026": 4194.9,
+          "March 31, 2025": 3805.23
+        },
+        "evidence": {
+          "source_text": "Depreciation on fixed assets 4,194.90 : 3,805.23",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Loss on revaluation of investments 7,739.96",
+        "values": {
+          "March 31, 2026": 7739.96,
+          "March 31, 2025": 3909.1
+        },
+        "evidence": {
+          "source_text": "Loss on revaluation of investments 7,739.96 : 3,909.10",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Amortisation of premium on investments",
+        "values": {
+          "March 31, 2026": 986.17,
+          "March 31, 2025": 87.07
+        },
+        "evidence": {
+          "source_text": "Amortisation of premium on investments 986.17 87.07",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Profit on sale of fixed assets (207.91)",
+        "values": {
+          "March 31, 2026": -207.91,
+          "March 31, 2025": -22.03
+        },
+        "evidence": {
+          "source_text": "Profit on sale of fixed assets (207.91) : (22.03)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "(Profit) / loss on sale of investment in subsidiary (7,000.27)",
+        "values": {
+          "March 31, 2026": -7000.27,
+          "March 31, 2025": 8.0
+        },
+        "evidence": {
+          "source_text": "(Profit) / loss on sale of investment in subsidiary (7,000.27) : 8.00",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Provision / charge for non performing assets 14,445.98",
+        "values": {
+          "March 31, 2026": 14445.98,
+          "March 31, 2025": 15385.24
+        },
+        "evidence": {
+          "source_text": "Provision / charge for non performing assets 14,445.98 : 15,385.24",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Floating provisions 9,000.00",
+        "values": {
+          "March 31, 2026": 9000.0
+        },
+        "evidence": {
+          "source_text": "Floating provisions 9,000.00 -",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Provision / (write-back) for standard assets and contingencies : 3,210.24",
+        "values": {
+          "March 31, 2026": 3210.24,
+          "March 31, 2025": -1210.63
+        },
+        "evidence": {
+          "source_text": "Provision / (write-back) for standard assets and contingencies : 3,210.24 : (1,210.63)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Employee stock options / units expense",
+        "values": {
+          "March 31, 2026": 2228.3,
+          "March 31, 2025": 2086.05
+        },
+        "evidence": {
+          "source_text": "Employee stock options / units expense 2,228.30 2,086.05",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "133,545.33",
+        "values": {
+          "March 31, 2026": 133545.33,
+          "March 31, 2025": 117642.16
+        },
+        "evidence": {
+          "source_text": "133,545.33 117,642.16",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Increase in investments",
+        "values": {
+          "March 31, 2026": -102572.73,
+          "March 31, 2025": -180362.67
+        },
+        "evidence": {
+          "source_text": "Increase in investments (102,572.73) (180,362.67)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Increase in advances (340,270.74)",
+        "values": {
+          "March 31, 2026": -340270.74,
+          "March 31, 2025": -169918.22
+        },
+        "evidence": {
+          "source_text": "Increase in advances (340,270.74) : (169,918.22)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Increase in deposits 388,740.06",
+        "values": {
+          "March 31, 2026": 388740.06,
+          "March 31, 2025": 334010.95
+        },
+        "evidence": {
+          "source_text": "Increase in deposits 388,740.06 : 334,010.95",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Increase in other assets",
+        "values": {
+          "March 31, 2026": -29678.54,
+          "March 31, 2025": -10829.67
+        },
+        "evidence": {
+          "source_text": "Increase in other assets (29,678.54) (10,829.67)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Increase in other liabilities and provisions 52,338.92",
+        "values": {
+          "March 31, 2026": 52338.92,
+          "March 31, 2025": 13117.98
+        },
+        "evidence": {
+          "source_text": "Increase in other liabilities and provisions 52,338.92 : 13,117.98",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Increase in policyholders! funds 34,060.45",
+        "values": {
+          "March 31, 2026": 34060.45,
+          "March 31, 2025": 43289.99
+        },
+        "evidence": {
+          "source_text": "Increase in policyholders! funds 34,060.45 : 43,289.99",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "136,162.75",
+        "values": {
+          "March 31, 2026": 136162.75,
+          "March 31, 2025": 146950.52
+        },
+        "evidence": {
+          "source_text": "136,162.75 146,950.52",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Direct taxes paid (net of refunds)",
+        "values": {
+          "March 31, 2026": -22656.37,
+          "March 31, 2025": -19708.68
+        },
+        "evidence": {
+          "source_text": "Direct taxes paid (net of refunds) (22,656.37) (19,708.68)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Net cash flows from operating activities",
+        "values": {
+          "March 31, 2026": 113506.38,
+          "March 31, 2025": 127241.84
+        },
+        "evidence": {
+          "source_text": "Net cash flows from operating activities 113,506.38 127,241.84",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Purchase of fixed assets : (8,889.97)",
+        "values": {
+          "March 31, 2026": -8889.97,
+          "March 31, 2025": -4075.89
+        },
+        "evidence": {
+          "source_text": "Purchase of fixed assets : (8,889.97) : (4,075.89)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Proceeds from sale of fixed assets 527.56 /",
+        "values": {
+          "March 31, 2026": 527.56,
+          "March 31, 2025": 100.72
+        },
+        "evidence": {
+          "source_text": "Proceeds from sale of fixed assets 527.56 / 100.72",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Proceeds from sale of investment in subsidiary (net of expenses)",
+        "values": {
+          "March 31, 2026": 9806.0,
+          "March 31, 2025": 192.0
+        },
+        "evidence": {
+          "source_text": "Proceeds from sale of investment in subsidiary (net of expenses) 9,806.00 192.00",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Investment in subsidiaries : (80.87)",
+        "values": {
+          "March 31, 2026": -80.87,
+          "March 31, 2025": -67.47
+        },
+        "evidence": {
+          "source_text": "Investment in subsidiaries : (80.87) : (67.47)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Net cash flow from / (used in) investing activities",
+        "values": {
+          "March 31, 2026": 6362.72,
+          "March 31, 2025": -3850.64
+        },
+        "evidence": {
+          "source_text": "Net cash flow from / (used in) investing activities 6,362.72 (3,850.64)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "478 Integrated Annual Report 2025-26",
+        "values": {
+          "March 31, 2026": 2025.0,
+          "March 31, 2025": -26.0
+        },
+        "evidence": {
+          "source_text": "478 Integrated Annual Report 2025-26",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "For the year ended March",
+        "values": {
+          "March 31, 2026": 31.0,
+          "March 31, 2025": 2026.0
+        },
+        "evidence": {
+          "source_text": "For the year ended March 31, 2026",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "March 31, March",
+        "values": {
+          "March 31, 2026": 31.0,
+          "March 31, 2025": 2025.0
+        },
+        "evidence": {
+          "source_text": "March 31, 2026 March 31, 2025",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Increase in minority interest (including issue of ESOPs by subsidiaries)",
+        "values": {
+          "March 31, 2026": 2331.21,
+          "March 31, 2025": 2382.88
+        },
+        "evidence": {
+          "source_text": "Increase in minority interest (including issue of ESOPs by subsidiaries) 2,331.21 2,382.88",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Proceeds from issue of share capital",
+        "values": {
+          "March 31, 2026": 5108.5,
+          "March 31, 2025": 6346.5
+        },
+        "evidence": {
+          "source_text": "Proceeds from issue of share capital 5,108.50 6,346.50",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Proceeds from issue of shares through subsidiary IPO (net of issue expenses) 2,456.61",
+        "values": {
+          "March 31, 2026": 2456.61
+        },
+        "evidence": {
+          "source_text": "Proceeds from issue of shares through subsidiary IPO (net of issue expenses) 2,456.61 -",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Proceeds from issue of Tier 1 and Tier 2 capital instruments",
+        "values": {
+          "March 31, 2026": 700.0,
+          "March 31, 2025": 1182.0
+        },
+        "evidence": {
+          "source_text": "Proceeds from issue of Tier 1 and Tier 2 capital instruments 700.00 1,182.00",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Repayment of Tier 1 and Tier 2 capital instruments",
+        "values": {
+          "March 31, 2026": 2.0,
+          "March 31, 2025": -500.0
+        },
+        "evidence": {
+          "source_text": "Repayment of Tier 1 and Tier 2 capital instruments - (500.00)",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Repayments from other borrowings (net)",
+        "values": {
+          "March 31, 2026": -48895.19,
+          "March 31, 2025": -97062.73
+        },
+        "evidence": {
+          "source_text": "Repayments from other borrowings (net) (48,895.19) (97,062.73)",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Dividend paid during the year",
+        "values": {
+          "March 31, 2026": -20705.98,
+          "March 31, 2025": -14826.19
+        },
+        "evidence": {
+          "source_text": "Dividend paid during the year (20,705.98) (14,826.19)",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Net cash flow used in financing activities",
+        "values": {
+          "March 31, 2026": -59004.85,
+          "March 31, 2025": -102477.54
+        },
+        "evidence": {
+          "source_text": "Net cash flow used in financing activities (59,004.85) (102,477.54)",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Effect of fluctuation in foreign currency translation reserve",
+        "values": {
+          "March 31, 2026": 1113.9,
+          "March 31, 2025": 199.73
+        },
+        "evidence": {
+          "source_text": "Effect of fluctuation in foreign currency translation reserve 1,113.90 199.73",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Net increase in cash and cash equivalents",
+        "values": {
+          "March 31, 2026": 61978.15,
+          "March 31, 2025": 21113.39
+        },
+        "evidence": {
+          "source_text": "Net increase in cash and cash equivalents 61,978.15 21,113.39",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Cash and cash equivalents at the beginning of the year",
+        "values": {
+          "March 31, 2026": 249947.9,
+          "March 31, 2025": 228834.51
+        },
+        "evidence": {
+          "source_text": "Cash and cash equivalents at the beginning of the year 249,947.90 228,834.51",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Cash and cash equivalents at the end of the year",
+        "values": {
+          "March 31, 2026": 311926.05,
+          "March 31, 2025": 249947.9
+        },
+        "evidence": {
+          "source_text": "Cash and cash equivalents at the end of the year 311,926.05 249,947.90",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "(Refer Schedule 6 and Schedule 7).",
+        "values": {
+          "March 31, 2026": 6.0,
+          "March 31, 2025": 7.0
+        },
+        "evidence": {
+          "source_text": "(Refer Schedule 6 and Schedule 7).",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "jo104sw 401248Ww/W-100022 Pendent) Dir",
+        "values": {
+          "March 31, 2026": 401248.0,
+          "March 31, 2025": -100022.0
+        },
+        "evidence": {
+          "source_text": "jo104sw 401248Ww/W-100022 Pendent) Dir",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Membership No.: Membership No.: Independent Director)",
+        "values": {
+          "March 31, 2026": 116976.0,
+          "March 31, 2025": 41870.0
+        },
+        "evidence": {
+          "source_text": "Membership No.: 116976 Membership No.: 041870 Independent Director)",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "Mumbai, April 18, Srinivasan Vaidyanathan Ajay Agarwal",
+        "values": {
+          "March 31, 2026": 18.0,
+          "March 31, 2025": 2026.0
+        },
+        "evidence": {
+          "source_text": "Mumbai, April 18, 2026 Srinivasan Vaidyanathan Ajay Agarwal",
+          "page_number": 2
+        }
+      },
+      {
+        "label": "479",
+        "values": {
+          "March 31, 2026": 479.0
+        },
+        "evidence": {
+          "source_text": "479",
+          "page_number": 2
+        }
+      }
+    ],
+    "raw_text": "--- PAGE 1 ---\ni\nCONSOLIDATED CASH FLOW STATEMENT\nFor the year ended March 31, 2026\n(@ in crore)\nYear ended Year ended\nMarch 31, 2026 March 31, 2025\nCash flows from operating activities:\nConsolidated Profit after tax and minority interest 76,025.97 : 70,792.25\nAdd: Provision for income tax ( Refer schedule 18 (9)) 22,921.99 : 22,801.88\nConsolidated profit before income tax and after minority interest 98,947.96 93,594.13\nAdjustments for:\nDepreciation on fixed assets 4,194.90 : 3,805.23\nLoss on revaluation of investments 7,739.96 : 3,909.10\nAmortisation of premium on investments 986.17 87.07\nProfit on sale of fixed assets (207.91) : (22.03)\n(Profit) / loss on sale of investment in subsidiary (7,000.27) : 8.00\nProvision / charge for non performing assets 14,445.98 : 15,385.24\nFloating provisions 9,000.00 -\nProvision / (write-back) for standard assets and contingencies : 3,210.24 : (1,210.63)\nEmployee stock options / units expense 2,228.30 2,086.05\n133,545.33 117,642.16\nAdjustments for:\nIncrease in investments (102,572.73) (180,362.67)\nIncrease in advances (340,270.74) : (169,918.22)\nIncrease in deposits 388,740.06 : 334,010.95\nIncrease in other assets (29,678.54) (10,829.67)\nIncrease in other liabilities and provisions 52,338.92 : 13,117.98\nIncrease in policyholders! funds 34,060.45 : 43,289.99\n136,162.75 146,950.52\nDirect taxes paid (net of refunds) (22,656.37) (19,708.68)\nNet cash flows from operating activities 113,506.38 127,241.84\nCash flows from investing activities:\nPurchase of fixed assets : (8,889.97) : (4,075.89)\nProceeds from sale of fixed assets 527.56 / 100.72\nProceeds from sale of investment in subsidiary (net of expenses) 9,806.00 192.00\nInvestment in subsidiaries : (80.87) : (67.47)\nNet cash flow from / (used in) investing activities 6,362.72 (3,850.64)\nHDFC Bank Limited\n478 Integrated Annual Report 2025-26\n\n\n--- PAGE 2 ---\nFor the year ended March 31, 2026\n(in crore)\nYear ended Year ended\nMarch 31, 2026 March 31, 2025\nCash flows from financing activities:\nIncrease in minority interest (including issue of ESOPs by subsidiaries) 2,331.21 2,382.88\nProceeds from issue of share capital 5,108.50 6,346.50\nProceeds from issue of shares through subsidiary IPO (net of issue expenses) 2,456.61 -\nProceeds from issue of Tier 1 and Tier 2 capital instruments 700.00 1,182.00\nRepayment of Tier 1 and Tier 2 capital instruments - (500.00)\nRepayments from other borrowings (net) (48,895.19) (97,062.73)\nDividend paid during the year (20,705.98) (14,826.19)\nNet cash flow used in financing activities (59,004.85) (102,477.54)\nEffect of fluctuation in foreign currency translation reserve 1,113.90 199.73\nNet increase in cash and cash equivalents 61,978.15 21,113.39\nCash and cash equivalents at the beginning of the year 249,947.90 228,834.51\nCash and cash equivalents at the end of the year 311,926.05 249,947.90\nCash and cash equivalents include Cash and balances with Reserve Bank of India and Balances with banks and money at call and short notice\n(Refer Schedule 6 and Schedule 7).\nAs per our report of even date. For and on behalf of the Board\nFor Batliboi & Purohit ForBSR&Co.LLP Keki Mistry Sandeep Parekh\nChartered Accountants Chartered Accountants Interim Part-Time Chairman Independent Director\nICAI Firm Registration No.: ICAI Firm Registration No.: Non indecent *) Director\njo104sw 401248Ww/W-100022 Pendent) Dir\nM. D. Ranganath Sunita Maheshwari\nIndependent Director Independent Director\nJanak Mehta Sudhir Soni Lily Vadera Renu Karnad\nPartner Partner Independent Director Non-Executive (Non-\nMembership No.: 116976 Membership No.: 041870 Independent Director)\nHarsh Kumar Bhanwala Santhosh Keshavan\nIndependent Director Independent Director\nSashidhar Jagdishan Kaizad Bharucha\nManaging Director & Chief Deputy Managing Director\nExecutive Officer\nBhavesh Zaveri V. Srinivasa Rangan\nExecutive Director Executive Director\nMumbai, April 18, 2026 Srinivasan Vaidyanathan Ajay Agarwal\nChief Financial Officer Company Secretary\n479\n"
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "cash_flow_net_change",
+        "formula": "operating + investing + financing + FX/translation adjustment",
+        "operands": {
+          "operating_cash_flow": 113506.38,
+          "investing_cash_flow": 6362.72,
+          "financing_cash_flow": -59004.85,
+          "fx_adjustment": 1113.9
+        },
+        "calculated_value": 61978.15000000001,
+        "reported_value": 61978.15,
+        "variance": 7.275957614183426e-12,
+        "status": "PASS",
+        "period": "March 31, 2026"
+      },
+      {
+        "name": "cash_flow_closing_cash",
+        "formula": "opening cash + net increase in cash",
+        "operands": {
+          "opening_cash": 249947.9,
+          "net_increase_in_cash": 61978.15
+        },
+        "calculated_value": 311926.05,
+        "reported_value": 311926.05,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "March 31, 2026"
+      },
+      {
+        "name": "cash_flow_net_change",
+        "formula": "operating + investing + financing + FX/translation adjustment",
+        "operands": {
+          "operating_cash_flow": 127241.84,
+          "investing_cash_flow": -3850.64,
+          "financing_cash_flow": -102477.54,
+          "fx_adjustment": 199.73
+        },
+        "calculated_value": 21113.390000000003,
+        "reported_value": 21113.39,
+        "variance": 3.637978807091713e-12,
+        "status": "PASS",
+        "period": "March 31, 2025"
+      },
+      {
+        "name": "cash_flow_closing_cash",
+        "formula": "opening cash + net increase in cash",
+        "operands": {
+          "opening_cash": 228834.51,
+          "net_increase_in_cash": 21113.39
+        },
+        "calculated_value": 249947.90000000002,
+        "reported_value": 249947.9,
+        "variance": 2.9103830456733704e-11,
+        "status": "PASS",
+        "period": "March 31, 2025"
+      }
+    ],
+    "overall_status": "PASS",
+    "issues": []
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "processed_at": "2026-09-11T07:18:25.958176+00:00",
+    "processing_time_ms": 4146,
+    "extraction_method": "ocr_fallback",
+    "pages_processed": 2
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "document_name": "Consolidated Balance Sheet 2026.pdf",
+  "document_type": "balance_sheet",
+  "processing_status": "PASS",
+  "file_validation": {
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS",
+    "issues": []
+  },
+  "extracted_data": {
+    "header": {
+      "statement_title": "Consolidated Balance Sheet"
+    },
+    "fields": {
+      "total_assets": {
+        "value": 4908040.84,
+        "evidence": {
+          "source_text": "Total 4,908,040.84 4,392,417.42",
+          "page_number": 1
+        }
+      }
+    },
+    "periods": [
+      "March 31, 2026",
+      "March 31, 2025"
+    ],
+    "line_items": [],
+    "financial_line_items": [
+      {
+        "label": "As at March 31, 2026 in crore)",
+        "values": {
+          "March 31, 2026": 31.0,
+          "March 31, 2025": 2026.0
+        },
+        "evidence": {
+          "source_text": "As at March 31, 2026 in crore)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Schedule March 31,2026 March",
+        "values": {
+          "March 31, 2026": 31.0,
+          "March 31, 2025": 2025.0
+        },
+        "evidence": {
+          "source_text": "Schedule March 31,2026 March 31, 2025",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Capital 1",
+        "values": {
+          "March 31, 2026": 1539.34,
+          "March 31, 2025": 765.22
+        },
+        "evidence": {
+          "source_text": "Capital 1 1,539.34 765.22",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Employees stock options / units outstanding 18 (4)",
+        "values": {
+          "March 31, 2026": 4545.11,
+          "March 31, 2025": 3805.19
+        },
+        "evidence": {
+          "source_text": "Employees stock options / units outstanding 18 (4) 4,545.11 3,805.19",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Reserves and surplus 2",
+        "values": {
+          "March 31, 2026": 579975.02,
+          "March 31, 2025": 517218.98
+        },
+        "evidence": {
+          "source_text": "Reserves and surplus 2 579,975.02 517,218.98",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Minority interest 2A",
+        "values": {
+          "March 31, 2026": 22384.96,
+          "March 31, 2025": 16359.04
+        },
+        "evidence": {
+          "source_text": "Minority interest 2A 22,384.96 16,359.04",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Deposits 3",
+        "values": {
+          "March 31, 2026": 3099638.29,
+          "March 31, 2025": 2710898.23
+        },
+        "evidence": {
+          "source_text": "Deposits 3 3,099,638.29 2,710,898.23",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Borrowings 4",
+        "values": {
+          "March 31, 2026": 588484.55,
+          "March 31, 2025": 634605.57
+        },
+        "evidence": {
+          "source_text": "Borrowings 4 588,484.55 634,605.57",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Other liabilities and provisions 5",
+        "values": {
+          "March 31, 2026": 252977.53,
+          "March 31, 2025": 188163.66
+        },
+        "evidence": {
+          "source_text": "Other liabilities and provisions 5 252,977.53 188,163.66",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Policyholders' funds",
+        "values": {
+          "March 31, 2026": 358496.04,
+          "March 31, 2025": 320601.53
+        },
+        "evidence": {
+          "source_text": "Policyholders' funds 358,496.04 320,601.53",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "total_capital_and_liabilities",
+        "values": {
+          "March 31, 2026": 4908040.84,
+          "March 31, 2025": 4392417.42
+        },
+        "evidence": {
+          "source_text": "Total 4,908,040.84 4,392,417.42",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Cash and balances with Reserve Bank of India 6",
+        "values": {
+          "March 31, 2026": 200707.11,
+          "March 31, 2025": 144390.25
+        },
+        "evidence": {
+          "source_text": "Cash and balances with Reserve Bank of India 6 200,707.11 144,390.25",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Balances with banks and money at call and short notice 7",
+        "values": {
+          "March 31, 2026": 111218.94,
+          "March 31, 2025": 105557.65
+        },
+        "evidence": {
+          "source_text": "Balances with banks and money at call and short notice 7 111,218.94 105,557.65",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Investments 8",
+        "values": {
+          "March 31, 2026": 1280216.29,
+          "March 31, 2025": 1186472.89
+        },
+        "evidence": {
+          "source_text": "Investments 8 1,280,216.29 1,186,472.89",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Advances 9",
+        "values": {
+          "March 31, 2026": 3050783.23,
+          "March 31, 2025": 2724938.16
+        },
+        "evidence": {
+          "source_text": "Advances 9 3,050,783.23 2,724,938.16",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Fixed assets 10",
+        "values": {
+          "March 31, 2026": 16491.59,
+          "March 31, 2025": 15257.94
+        },
+        "evidence": {
+          "source_text": "Fixed assets 10 16,491.59 15,257.94",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Other assets an",
+        "values": {
+          "March 31, 2026": 248623.68,
+          "March 31, 2025": 215800.53
+        },
+        "evidence": {
+          "source_text": "Other assets an 248,623.68 215,800.53",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "total_assets",
+        "values": {
+          "March 31, 2026": 4908040.84,
+          "March 31, 2025": 4392417.42
+        },
+        "evidence": {
+          "source_text": "Total 4,908,040.84 4,392,417.42",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Contingent liabilities 12",
+        "values": {
+          "March 31, 2026": 3479487.31,
+          "March 31, 2025": 2709921.85
+        },
+        "evidence": {
+          "source_text": "Contingent liabilities 12 3,479,487.31 2,709,921.85",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Bills for collection",
+        "values": {
+          "March 31, 2026": 82470.05,
+          "March 31, 2025": 70679.55
+        },
+        "evidence": {
+          "source_text": "Bills for collection 82,470.05 70,679.55",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Significant accounting policies and notes to the Consolidated Financial Statements 17&18",
+        "values": {
+          "March 31, 2026": 17.0,
+          "March 31, 2025": 18.0
+        },
+        "evidence": {
+          "source_text": "Significant accounting policies and notes to the Consolidated Financial Statements 17&18",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "ICAI Firm Registration No.: ICAI Firm Registration No.: Nonincoeond Director",
+        "values": {
+          "March 31, 2026": 1.0
+        },
+        "evidence": {
+          "source_text": "ICAI Firm Registration No.: ICAI Firm Registration No.: Nonincoeond 1) Director",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "y01048W y01248W/W-100022 onrincependent) Directo!",
+        "values": {
+          "March 31, 2026": 1248.0,
+          "March 31, 2025": -100022.0
+        },
+        "evidence": {
+          "source_text": "y01048W y01248W/W-100022 onrincependent) Directo!",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Membership No.: Membership No.: Independent Director)",
+        "values": {
+          "March 31, 2026": 116976.0,
+          "March 31, 2025": 41870.0
+        },
+        "evidence": {
+          "source_text": "Membership No.: 116976 Membership No.: 041870 Independent Director)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Mumbai, April 18, Srinivasan Vaidyanathan Ajay Agarwal",
+        "values": {
+          "March 31, 2026": 18.0,
+          "March 31, 2025": 2026.0
+        },
+        "evidence": {
+          "source_text": "Mumbai, April 18, 2026 Srinivasan Vaidyanathan Ajay Agarwal",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "476 Integrated Annual Report 2025-26",
+        "values": {
+          "March 31, 2026": 2025.0,
+          "March 31, 2025": -26.0
+        },
+        "evidence": {
+          "source_text": "476 Integrated Annual Report 2025-26",
+          "page_number": 1
+        }
+      }
+    ],
+    "raw_text": "--- PAGE 1 ---\nra\nLd\nAs at March 31, 2026 in crore)\nAs at As at\nSchedule March 31,2026 March 31, 2025\nCAPITAL AND LIABILITIES\nCapital 1 1,539.34 765.22\nEmployees stock options / units outstanding 18 (4) 4,545.11 3,805.19\nReserves and surplus 2 579,975.02 517,218.98\nMinority interest 2A 22,384.96 16,359.04\nDeposits 3 3,099,638.29 2,710,898.23\nBorrowings 4 588,484.55 634,605.57\nOther liabilities and provisions 5 252,977.53 188,163.66\nPolicyholders' funds 358,496.04 320,601.53\nTotal 4,908,040.84 4,392,417.42\nASSETS\nCash and balances with Reserve Bank of India 6 200,707.11 144,390.25\nBalances with banks and money at call and short notice 7 111,218.94 105,557.65\nInvestments 8 1,280,216.29 1,186,472.89\nAdvances 9 3,050,783.23 2,724,938.16\nFixed assets 10 16,491.59 15,257.94\nOther assets an 248,623.68 215,800.53\nTotal 4,908,040.84 4,392,417.42\nContingent liabilities 12 3,479,487.31 2,709,921.85\nBills for collection 82,470.05 70,679.55\nSignificant accounting policies and notes to the Consolidated Financial Statements 17&18\nThe schedules referred to above form an integral part of the Consolidated Balance Sheet.\nAs per our report of even date. For and on behalf of the Board\nFor Batliboi & Purohit For BS R & Co. LLP Keki Mistry Sandeep Parekh\nChartered Accountants Chartered Accountants Interim Part-Time Chairman Independent Director\nICAI Firm Registration No.: ICAI Firm Registration No.: Nonincoeond 1) Director\ny01048W y01248W/W-100022 onrincependent) Directo!\nM. D. Ranganath Sunita Maheshwari\nIndependent Director Independent Director\nJanak Mehta Sudhir Soni Lily Vadera Renu Karnad\nPartner Partner Independent Director Non-Executive (Non-\nMembership No.: 116976 Membership No.: 041870 Independent Director)\nHarsh Kumar Bhanwala Santhosh Keshavan\nIndependent Director Independent Director\nSashidhar Jagdishan Kaizad Bharucha\nManaging Director & Chief Deputy Managing Director\nExecutive Officer\nBhavesh Zaveri V. Srinivasa Rangan\nExecutive Director Executive Director\nMumbai, April 18, 2026 Srinivasan Vaidyanathan Ajay Agarwal\nChief Financial Officer Company Secretary\nHDFC Bank Limited\n476 Integrated Annual Report 2025-26\n"
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "balance_sheet_balance",
+        "formula": "total capital & liabilities ≈ total assets",
+        "operands": {
+          "total_capital_and_liabilities": 4908040.84,
+          "total_assets": 4908040.84
+        },
+        "calculated_value": 4908040.84,
+        "reported_value": 4908040.84,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "March 31, 2026"
+      },
+      {
+        "name": "balance_sheet_balance",
+        "formula": "total capital & liabilities ≈ total assets",
+        "operands": {
+          "total_capital_and_liabilities": 4392417.42,
+          "total_assets": 4392417.42
+        },
+        "calculated_value": 4392417.42,
+        "reported_value": 4392417.42,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "March 31, 2025"
+      }
+    ],
+    "overall_status": "PASS",
+    "issues": []
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "processed_at": "2026-09-11T07:18:19.726592+00:00",
+    "processing_time_ms": 1695,
+    "extraction_method": "ocr_fallback",
+    "pages_processed": 1
+  }
+}

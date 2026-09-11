@@ -1,0 +1,176 @@
+{
+  "document_name": "batch2-0499.jpg",
+  "document_type": "invoice",
+  "processing_status": "PASS",
+  "file_validation": {
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS",
+    "issues": []
+  },
+  "extracted_data": {
+    "header": {},
+    "fields": {
+      "invoice_number": {
+        "value": "6825",
+        "evidence": {
+          "source_text": "Invoice#: 6825",
+          "page_number": 1
+        }
+      },
+      "invoice_date": {
+        "value": "Nov 03, 2022",
+        "evidence": {
+          "source_text": "Invoice date: Nov 03, 2022",
+          "page_number": 1
+        }
+      },
+      "subtotal": {
+        "value": 135.0,
+        "evidence": {
+          "source_text": "Subtotal $135.00",
+          "page_number": 1
+        }
+      },
+      "tax_amount": {
+        "value": 12.48,
+        "evidence": {
+          "source_text": "Sales Tax 8% $12.48",
+          "page_number": 1
+        }
+      },
+      "total_amount": {
+        "value": 157.48,
+        "evidence": {
+          "source_text": "Total Due $157.48",
+          "page_number": 1
+        }
+      }
+    },
+    "periods": [],
+    "line_items": [
+      {
+        "description": "02 10760667-011PW $14.00 $56.00",
+        "quantity": 4.0,
+        "unit_price": 14.0,
+        "amount": 56.0
+      },
+      {
+        "description": "03 0485 D/C FilmTp. 1/2'x98'-1/64 44 rolls/case $6.00 $30.00",
+        "quantity": 5.0,
+        "unit_price": 6.0,
+        "amount": 30.0
+      },
+      {
+        "description": "OA 3M 3762LM-PG Hot Melt TAN 1\" x 3\" 22 $7.00 $28.00",
+        "quantity": 4.0,
+        "unit_price": 7.0,
+        "amount": 28.0
+      },
+      {
+        "description": "OS Powder/Latex Free | /BX ° qed B15.00",
+        "quantity": null,
+        "unit_price": 100.0,
+        "amount": 15.0
+      }
+    ],
+    "financial_line_items": [],
+    "raw_text": "--- PAGE 1 ---\nTAYLOR CERTIFIED PROCESSING INC 101 B\nDevon Road Invoice: KiranP@taylor-corp.ca\nBRAMPTON\nTHE ORTHOTIC GROUP INC. 160 Markland Street Invoices ao@ohi.net MARKHAM, Ontario,\nCanada L6C 0Cé6\n# Description Quantity Price Total\n01 3M 80 RUbber&Vinyl Spray Adh. Yellow 24 fl oz. 6 5 $8.00 $16.00\ncans/case\n3M 570 Seam Sealer WHT 120z 12 cartridges/case\n02 10760667-011PW 4 $14.00 $56.00\n03 0485 D/C FilmTp. 1/2'x98'-1/64 44 rolls/case 5 $6.00 $30.00\nOA 3M 3762LM-PG Hot Melt TAN 1\" x 3\" 22 4 $7.00 $28.00\npounds/case\nNitrile 18756 Medical Glove BLK Medium\nOS Powder/Latex Free | 100/BX ° qed B15.00\nSubtotal $135.00\nSales Tax 8% $12.48\nShipping and Handling $10.00\nTotal Due $157.48\nInvoice Details:\nInvoice#: 6825\nInvoice date: Nov 03, 2022\nDue date: Dec 03, 2022\nTerms and conditions:\nPlease send payment within 30 days of receiving this invoice. There will be a 1.5% interest charge per\nmonth on late invoices.\n"
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "invoice_line_1_total",
+        "formula": "quantity × unit_price",
+        "operands": {
+          "quantity": 4.0,
+          "unit_price": 14.0
+        },
+        "calculated_value": 56.0,
+        "reported_value": 56.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": null
+      },
+      {
+        "name": "invoice_line_2_total",
+        "formula": "quantity × unit_price",
+        "operands": {
+          "quantity": 5.0,
+          "unit_price": 6.0
+        },
+        "calculated_value": 30.0,
+        "reported_value": 30.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": null
+      },
+      {
+        "name": "invoice_line_3_total",
+        "formula": "quantity × unit_price",
+        "operands": {
+          "quantity": 4.0,
+          "unit_price": 7.0
+        },
+        "calculated_value": 28.0,
+        "reported_value": 28.0,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": null
+      },
+      {
+        "name": "invoice_line_4_total",
+        "formula": "quantity × unit_price",
+        "operands": {
+          "quantity": null,
+          "unit_price": 100.0
+        },
+        "calculated_value": null,
+        "reported_value": 15.0,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "invoice_items_subtotal_check",
+        "formula": "sum(line_item.amount)",
+        "operands": {
+          "line_item_total": 129.0
+        },
+        "calculated_value": 129.0,
+        "reported_value": 135.0,
+        "variance": -6.0,
+        "status": "FAIL",
+        "period": null
+      },
+      {
+        "name": "invoice_total_check",
+        "formula": "subtotal + tax_amount - discount",
+        "operands": {
+          "subtotal": 135.0,
+          "tax_amount": 12.48,
+          "discount": 0.0
+        },
+        "calculated_value": 147.48,
+        "reported_value": 157.48,
+        "variance": -10.0,
+        "status": "FAIL",
+        "period": null
+      }
+    ],
+    "overall_status": "FAIL",
+    "issues": [
+      "invoice_items_subtotal_check failed",
+      "invoice_total_check failed"
+    ]
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "processed_at": "2026-09-11T07:18:14.282469+00:00",
+    "processing_time_ms": 1603,
+    "extraction_method": "ocr_fallback",
+    "pages_processed": 1
+  }
+}

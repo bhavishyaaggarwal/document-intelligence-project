@@ -1,0 +1,164 @@
+{
+  "document_name": "20251118_000612.jpg",
+  "document_type": "invoice",
+  "processing_status": "PASS",
+  "file_validation": {
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS",
+    "issues": []
+  },
+  "extracted_data": {
+    "header": {},
+    "fields": {
+      "currency": {
+        "value": "INR",
+        "evidence": {
+          "source_text": "INR",
+          "page_number": 1
+        }
+      },
+      "total_amount": {
+        "value": 5815.17,
+        "evidence": {
+          "source_text": "Total: 5,815.17",
+          "page_number": 1
+        }
+      }
+    },
+    "periods": [],
+    "line_items": [
+      {
+        "description": "60PCS Twin Pack /- | Lae",
+        "quantity": null,
+        "unit_price": 60.0,
+        "amount": 10.0
+      },
+      {
+        "description": "PRINTED BUCKET+LID /- |",
+        "quantity": null,
+        "unit_price": 230.0,
+        "amount": 4.0
+      },
+      {
+        "description": "60PCS Twin Pack /- | | | |",
+        "quantity": null,
+        "unit_price": 60.0,
+        "amount": 10.0
+      },
+      {
+        "description": "60PCS Twin Pack /- | Lo :",
+        "quantity": null,
+        "unit_price": 60.0,
+        "amount": 10.0
+      },
+      {
+        "description": "(9.6 KG) WITH SCRUB PAD /- La |",
+        "quantity": null,
+        "unit_price": 9.6,
+        "amount": 20.0
+      },
+      {
+        "description": "We declare thet thi for Shankar Enterprises-(2023-24) |",
+        "quantity": null,
+        "unit_price": 2023.0,
+        "amount": -24.0
+      }
+    ],
+    "financial_line_items": [],
+    "raw_text": "--- PAGE 1 ---\nOE .\n: ___ TAX INVOIcE Printed on 16-Jul-25 at 18:39\nee i 93-24 “lnve\nShankar Enterprises2°7\" eo ies No. “jDated 7 = ne\n. |12B,SHIB DEY LANE ,) SC1/25-26/3331 SG sures Moe\nKOLKATA-700087 (WN/687641 | elivery Note [Modortenns of Payment we “2 fh\n'D.L.Nov WB/KOLINE 5651N1ZS pe OL\nIGSTIN/UIN: 19BFJF EE ngal, Code: 19 Sales Man es a\nleonn Name 5 3y94259,923 1883650 SUJIT(9007785327) |Area LOHAPOOL | 1, age\n: | R beste\n[EMail shankegriererges 231 @gmail.com | Reference No. & Date eo eferences sf We 2\n[Consignee (Shiv ihder 2 |Buyers OrderNo. |Dated = = = = = = weve\n‘Laxmi Naray@choudhry Lane | ee eat %\n\\7/af Abhine - 19CPQPS9464F 12x Dispatch Doc No. |Delivery Note Date | “ot oe\nIGSTIN/UIN — * West Bengal | IEA\n‘state Name - e gal, Code : 19 ah SS GAT ee EE ne eer , dag\n[contact : 9831715156 Dispatched through |Destination | je\niBuyer (Bill to) ee ees\nLaxmi Narayan Bhandar 2 Terms of Delivery dbs\ni7/ef Abhinesh Choudhry Lane Pa al\nGSTIN/UIN _ : 19CPQPS9464F1zx ee\nState Name __ : West Bengal, Code : 19 ‘ld\nContact : 9831715156 bi\nSl Description of Goods HSN/SAC Quantity) Rate | Rate |per|Disc%) Amount oY\nNo, feet Gee ee | :\n/SAFED 800GM (24PKT) 68/- 3402901148 PCS 61.45 52.08 PCs 2,499.84\n2;SAFED WHITE DP 140GM 340290116 PCS| 8-78! 7.44 HS 99% 0.45\n60PCS Twin Pack 10/- | Lae\n| 3 SAFED 2 KG (12 PKT) 2402901142 PCS|203.02|472.05 P0S/ | 2,064.60\nPRINTED BUCKET+LID 230/- | 4\n4,5SAFED WHITE DP 140GM 340290111 )420 PCS oe 7 AA PCS) 892.80\n60PCS Twin Pack 10/- | | | |\n5|SAFED WHITE DP 140GM 34028011/8 PCS 878 7.4) Ps 99% 0.60\n60PCS Twin Pack 10/- | Lo :\n6|SPARKLE 200 GM BATI 48PCS |24054000|24 PCS 17.55|4.4,87 PCS. 356.88\n(9.6 KG) WITH SCRUB PAD 20/- La |\n| | |6,845.17\n| J SGSR@9% 9\\%| . | 523.36\nGST@9% 9% { | 523.36\nRound Off | ee | 0.11\nR g, = ot\na ee aS fa Oe ANT\nFavour Chargeable (n word) eC cue ged ee\nINR Six Thousand fgh{ Hundred Sixty Two Only y | |\n7) WW ES Taxable| CGST]/ /SGST/UTGST| Total\n; 7) Vi Value |Rate|Amount|Rate|Amount|Tax Amount\nLy ————SSC*' 815.17 9% 523.36] 9% [523.36] 1,046.72) :\nWa ___ Total: 5,815.17, |523.36| —_|[523.36/1,046.72\nTaxhooun\\ nwo) : INR One Thousand Forty Six and Seventy Two paise Only |\nCompany's Bank Details |\nBank Name : Union Bank of India |\nAle No. : 301301010036937 |\nDestertion Branch & IFS Code: DHARMTALA & UBIN0530131 | ;\nWe declare thet thi for Shankar Enterprises-(2023-24) |\n: Ss Invoice shows the actual |\nPrice of the goods described and that all particulars are true and correct. | \"\nee & J Authorised Signatory | By\nThis \\s a Computer Generated Invoice apie\n"
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "invoice_line_1_total",
+        "formula": "quantity × unit_price",
+        "operands": {
+          "quantity": null,
+          "unit_price": 60.0
+        },
+        "calculated_value": null,
+        "reported_value": 10.0,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "invoice_line_2_total",
+        "formula": "quantity × unit_price",
+        "operands": {
+          "quantity": null,
+          "unit_price": 230.0
+        },
+        "calculated_value": null,
+        "reported_value": 4.0,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "invoice_line_3_total",
+        "formula": "quantity × unit_price",
+        "operands": {
+          "quantity": null,
+          "unit_price": 60.0
+        },
+        "calculated_value": null,
+        "reported_value": 10.0,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "invoice_line_4_total",
+        "formula": "quantity × unit_price",
+        "operands": {
+          "quantity": null,
+          "unit_price": 60.0
+        },
+        "calculated_value": null,
+        "reported_value": 10.0,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "invoice_line_5_total",
+        "formula": "quantity × unit_price",
+        "operands": {
+          "quantity": null,
+          "unit_price": 9.6
+        },
+        "calculated_value": null,
+        "reported_value": 20.0,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "invoice_line_6_total",
+        "formula": "quantity × unit_price",
+        "operands": {
+          "quantity": null,
+          "unit_price": 2023.0
+        },
+        "calculated_value": null,
+        "reported_value": -24.0,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      }
+    ],
+    "overall_status": "NOT_APPLICABLE",
+    "issues": []
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "processed_at": "2026-09-11T07:18:18.028425+00:00",
+    "processing_time_ms": 3746,
+    "extraction_method": "ocr_fallback",
+    "pages_processed": 1
+  }
+}

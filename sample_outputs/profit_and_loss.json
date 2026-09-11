@@ -1,0 +1,471 @@
+{
+  "document_name": "Consolidated Profit & Loss 2026.pdf",
+  "document_type": "profit_and_loss",
+  "processing_status": "PASS",
+  "file_validation": {
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS",
+    "issues": []
+  },
+  "extracted_data": {
+    "header": {
+      "statement_title": "Consolidated Profit and Loss"
+    },
+    "fields": {
+      "net_profit": {
+        "value": 76025.97,
+        "evidence": {
+          "source_text": "Consolidated Net Profit for the year attributable to the group 76,025.97 70,792.25",
+          "page_number": 1
+        }
+      }
+    },
+    "periods": [
+      "March 31, 2026",
+      "March 31, 2025"
+    ],
+    "line_items": [],
+    "financial_line_items": [
+      {
+        "label": "For the year ended March 31, 2026 in crore)",
+        "values": {
+          "March 31, 2026": 31.0,
+          "March 31, 2025": 2026.0
+        },
+        "evidence": {
+          "source_text": "For the year ended March 31, 2026 in crore)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "March 31,2026 March",
+        "values": {
+          "March 31, 2026": 31.0,
+          "March 31, 2025": 2025.0
+        },
+        "evidence": {
+          "source_text": "March 31,2026 March 31, 2025",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Interest earned 13",
+        "values": {
+          "March 31, 2026": 348615.15,
+          "March 31, 2025": 336367.43
+        },
+        "evidence": {
+          "source_text": "Interest earned 13 348,615.15 336,367.43",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Other income 14",
+        "values": {
+          "March 31, 2026": 146847.66,
+          "March 31, 2025": 134548.5
+        },
+        "evidence": {
+          "source_text": "Other income 14 146,847.66 134,548.50",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "total_income",
+        "values": {
+          "March 31, 2026": 495462.81,
+          "March 31, 2025": 470915.93
+        },
+        "evidence": {
+          "source_text": "Total 495,462.81 470,915.93",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Interest expended 15",
+        "values": {
+          "March 31, 2026": 185491.23,
+          "March 31, 2025": 183894.2
+        },
+        "evidence": {
+          "source_text": "Interest expended 15 185,491.23 183,894.20",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Operating expenses 16",
+        "values": {
+          "March 31, 2026": 181173.91,
+          "March 31, 2025": 176605.07
+        },
+        "evidence": {
+          "source_text": "Operating expenses 16 181,173.91 176,605.07",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Provisions and contingencies 18 (9)",
+        "values": {
+          "March 31, 2026": 49578.21,
+          "March 31, 2025": 36976.49
+        },
+        "evidence": {
+          "source_text": "Provisions and contingencies 18 (9) 49,578.21 36,976.49",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "total_expenditure",
+        "values": {
+          "March 31, 2026": 416243.35,
+          "March 31, 2025": 397475.76
+        },
+        "evidence": {
+          "source_text": "Total 416,243.35 397,475.76",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Consolidated Net Profit for the year before Minority Interest",
+        "values": {
+          "March 31, 2026": 79219.46,
+          "March 31, 2025": 73440.17
+        },
+        "evidence": {
+          "source_text": "Consolidated Net Profit for the year before Minority Interest 79,219.46 73,440.17",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Less : Minority Interest",
+        "values": {
+          "March 31, 2026": 3193.49,
+          "March 31, 2025": 2647.92
+        },
+        "evidence": {
+          "source_text": "Less : Minority Interest 3,193.49 2,647.92",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Consolidated Net Profit for the year attributable to the group",
+        "values": {
+          "March 31, 2026": 76025.97,
+          "March 31, 2025": 70792.25
+        },
+        "evidence": {
+          "source_text": "Consolidated Net Profit for the year attributable to the group 76,025.97 70,792.25",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Brought forward consolidated profit attributable to the group",
+        "values": {
+          "March 31, 2026": 178692.55,
+          "March 31, 2025": 150045.57
+        },
+        "evidence": {
+          "source_text": "Brought forward consolidated profit attributable to the group 178,692.55 150,045.57",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "total_expenditure",
+        "values": {
+          "March 31, 2026": 254718.52,
+          "March 31, 2025": 220837.82
+        },
+        "evidence": {
+          "source_text": "Total 254,718.52 220,837.82",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Transfer to Statutory Reserve",
+        "values": {
+          "March 31, 2026": 19159.57,
+          "March 31, 2025": 17260.3
+        },
+        "evidence": {
+          "source_text": "Transfer to Statutory Reserve 19,159.57 17,260.30",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Interim Dividend paid 3,836.57",
+        "values": {
+          "March 31, 2026": 3836.57
+        },
+        "evidence": {
+          "source_text": "Interim Dividend paid 3,836.57 -",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Transfer to General Reserve",
+        "values": {
+          "March 31, 2026": 7467.13,
+          "March 31, 2025": 6734.74
+        },
+        "evidence": {
+          "source_text": "Transfer to General Reserve 7,467.13 6,734.74",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Transfer to Special Reserve",
+        "values": {
+          "March 31, 2026": 3000.0,
+          "March 31, 2025": 3200.0
+        },
+        "evidence": {
+          "source_text": "Transfer to Special Reserve 3,000.00 3,200.00",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Transfer to Capital Reserve",
+        "values": {
+          "March 31, 2026": 8320.4,
+          "March 31, 2025": 507.0
+        },
+        "evidence": {
+          "source_text": "Transfer to Capital Reserve 8,320.40 507.00",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Dividend pertaining to previous year paid during the year",
+        "values": {
+          "March 31, 2026": 16869.41,
+          "March 31, 2025": 14826.19
+        },
+        "evidence": {
+          "source_text": "Dividend pertaining to previous year paid during the year 16,869.41 14,826.19",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Transfer to / (from) Minority Interest",
+        "values": {
+          "March 31, 2026": 476.12,
+          "March 31, 2025": -382.96
+        },
+        "evidence": {
+          "source_text": "Transfer to / (from) Minority Interest 476.12 (382.96)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Transfer to Other Reserves 1.85",
+        "values": {
+          "March 31, 2026": 1.85
+        },
+        "evidence": {
+          "source_text": "Transfer to Other Reserves 1.85 -",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Balance carried over to consolidated balance sheet",
+        "values": {
+          "March 31, 2026": 195587.47,
+          "March 31, 2025": 178692.55
+        },
+        "evidence": {
+          "source_text": "Balance carried over to consolidated balance sheet 195,587.47 178,692.55",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Total",
+        "values": {
+          "March 31, 2026": 254718.52,
+          "March 31, 2025": 220837.82
+        },
+        "evidence": {
+          "source_text": "Total 254,718.52 220,837.82",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "V EARNINGS PER EQUITY SHARE (Face value & 1/ - per share) 18 (18) zg z",
+        "values": {
+          "March 31, 2026": 18.0,
+          "March 31, 2025": -18.0
+        },
+        "evidence": {
+          "source_text": "V EARNINGS PER EQUITY SHARE (Face value & 1/ - per share) 18 (18) zg z",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Basic",
+        "values": {
+          "March 31, 2026": 49.5,
+          "March 31, 2025": 46.41
+        },
+        "evidence": {
+          "source_text": "Basic 49.50 46.41",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Diluted",
+        "values": {
+          "March 31, 2026": 49.28,
+          "March 31, 2025": 46.2
+        },
+        "evidence": {
+          "source_text": "Diluted 49.28 46.20",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Significant accounting policies and notes to the Consolidated Financial Statements 17&",
+        "values": {
+          "March 31, 2026": 17.0,
+          "March 31, 2025": 18.0
+        },
+        "evidence": {
+          "source_text": "Significant accounting policies and notes to the Consolidated Financial Statements 17& 18",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Membership No.: Membership No.: Independent Director)",
+        "values": {
+          "March 31, 2026": 116976.0,
+          "March 31, 2025": 41870.0
+        },
+        "evidence": {
+          "source_text": "Membership No.: 116976 Membership No.: 041870 Independent Director)",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "Mumbai, April 18, Srinivasan Vaidyanathan Ajay Agarwal",
+        "values": {
+          "March 31, 2026": 18.0,
+          "March 31, 2025": 2026.0
+        },
+        "evidence": {
+          "source_text": "Mumbai, April 18, 2026 Srinivasan Vaidyanathan Ajay Agarwal",
+          "page_number": 1
+        }
+      },
+      {
+        "label": "477",
+        "values": {
+          "March 31, 2026": 477.0
+        },
+        "evidence": {
+          "source_text": "477",
+          "page_number": 1
+        }
+      }
+    ],
+    "raw_text": "--- PAGE 1 ---\nCONSOLIDATED PROFIT AND LOSS ACCOUNT\nFor the year ended March 31, 2026 in crore)\nSchedule Year ended Year ended\nMarch 31,2026 March 31, 2025\nI INCOME\nInterest earned 13 348,615.15 336,367.43\nOther income 14 146,847.66 134,548.50\nTotal 495,462.81 470,915.93\nIl EXPENDITURE\nInterest expended 15 185,491.23 183,894.20\nOperating expenses 16 181,173.91 176,605.07\nProvisions and contingencies 18 (9) 49,578.21 36,976.49\nTotal 416,243.35 397,475.76\nIl PROFIT —_\nConsolidated Net Profit for the year before Minority Interest 79,219.46 73,440.17\nLess : Minority Interest 3,193.49 2,647.92\nConsolidated Net Profit for the year attributable to the group 76,025.97 70,792.25\nBrought forward consolidated profit attributable to the group 178,692.55 150,045.57\nTotal 254,718.52 220,837.82\nIV APPROPRIATIONS.\nTransfer to Statutory Reserve 19,159.57 17,260.30\nInterim Dividend paid 3,836.57 -\nTransfer to General Reserve 7,467.13 6,734.74\nTransfer to Special Reserve 3,000.00 3,200.00\nTransfer to Capital Reserve 8,320.40 507.00\nDividend pertaining to previous year paid during the year 16,869.41 14,826.19\nTransfer to / (from) Minority Interest 476.12 (382.96)\nTransfer to Other Reserves 1.85 -\nBalance carried over to consolidated balance sheet 195,587.47 178,692.55\nTotal 254,718.52 220,837.82\nV EARNINGS PER EQUITY SHARE (Face value & 1/ - per share) 18 (18) zg z\nBasic 49.50 46.41\nDiluted 49.28 46.20\nSignificant accounting policies and notes to the Consolidated Financial Statements 17& 18\nThe schedules referred to above form an integral part of the Consolidated Profit and Loss\nAccount. SS S$ S$ S$\nAs per our report of even date. For and on behalf of the Board\nFor Batliboi & Purohit For BSR &Co.LLP Keki Mistry Sandeep Parekh\nChartered Accountants Chartered Accountants Interim Part-Time Chairman Independent Director\n: setrati : ‘ istrati : & Non-Executive\nM. D. Ranganath Sunita Maheshwari\nIndependent Director Independent Director\nJanak Mehta Sudhir Soni Lily Vadera Renu Karnad\nPartner Partner Independent Director Non-Executive (Non-\nMembership No.: 116976 Membership No.: 041870 Independent Director)\nHarsh Kumar Bhanwala Santhosh Keshavan\nIndependent Director Independent Director\nSashidhar Jagdishan Kaizad Bharucha\nManaging Director & Chief Deputy Managing Director\nExecutive Officer\nBhavesh Zaveri V. Srinivasa Rangan\nExecutive Director Executive Director\nMumbai, April 18, 2026 Srinivasan Vaidyanathan Ajay Agarwal\nChief Financial Officer Company Secretary\n477\n"
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "pnl_total_income",
+        "formula": "interest earned + other income",
+        "operands": {
+          "interest_earned": 348615.15,
+          "other_income": 146847.66
+        },
+        "calculated_value": 495462.81000000006,
+        "reported_value": 495462.81,
+        "variance": 5.820766091346741e-11,
+        "status": "PASS",
+        "period": "March 31, 2026"
+      },
+      {
+        "name": "pnl_total_expenditure",
+        "formula": "interest expended + operating expenses + provisions & contingencies",
+        "operands": {
+          "interest_expended": 185491.23,
+          "operating_expenses": 181173.91,
+          "provisions_and_contingencies": 49578.21
+        },
+        "calculated_value": 416243.35000000003,
+        "reported_value": 254718.52,
+        "variance": 161524.83000000005,
+        "status": "FAIL",
+        "period": "March 31, 2026"
+      },
+      {
+        "name": "pnl_group_net_profit",
+        "formula": "profit before minority interest - minority interest",
+        "operands": {
+          "profit_before_minority_interest": 79219.46,
+          "minority_interest": 79219.46
+        },
+        "calculated_value": 0.0,
+        "reported_value": 76025.97,
+        "variance": -76025.97,
+        "status": "FAIL",
+        "period": "March 31, 2026"
+      },
+      {
+        "name": "pnl_total_income",
+        "formula": "interest earned + other income",
+        "operands": {
+          "interest_earned": 336367.43,
+          "other_income": 134548.5
+        },
+        "calculated_value": 470915.93,
+        "reported_value": 470915.93,
+        "variance": 0.0,
+        "status": "PASS",
+        "period": "March 31, 2025"
+      },
+      {
+        "name": "pnl_total_expenditure",
+        "formula": "interest expended + operating expenses + provisions & contingencies",
+        "operands": {
+          "interest_expended": 183894.2,
+          "operating_expenses": 176605.07,
+          "provisions_and_contingencies": 36976.49
+        },
+        "calculated_value": 397475.76,
+        "reported_value": 220837.82,
+        "variance": 176637.94,
+        "status": "FAIL",
+        "period": "March 31, 2025"
+      },
+      {
+        "name": "pnl_group_net_profit",
+        "formula": "profit before minority interest - minority interest",
+        "operands": {
+          "profit_before_minority_interest": 73440.17,
+          "minority_interest": 73440.17
+        },
+        "calculated_value": 0.0,
+        "reported_value": 70792.25,
+        "variance": -70792.25,
+        "status": "FAIL",
+        "period": "March 31, 2025"
+      }
+    ],
+    "overall_status": "FAIL",
+    "issues": [
+      "pnl_total_expenditure failed",
+      "pnl_group_net_profit failed",
+      "pnl_total_expenditure failed",
+      "pnl_group_net_profit failed"
+    ]
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "processed_at": "2026-09-11T07:18:21.811018+00:00",
+    "processing_time_ms": 2084,
+    "extraction_method": "ocr_fallback",
+    "pages_processed": 1
+  }
+}
